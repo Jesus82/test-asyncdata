@@ -1,0 +1,15 @@
+{
+  "name": "test-asyncdata",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "  nuxt dev",
+    "build": " nuxt build",
+    "start": " nuxt start",
+    "generate": "nuxt generate",
+    "analyze": "nuxt analyze"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nuxt": "^3.11.2"
+  }
+}
