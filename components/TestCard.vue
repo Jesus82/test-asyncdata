@@ -1,10 +1,10 @@
 <template>
-  <BeerDetails :beer-style="beerStyle" />
+  <p>{{ simplePost.title }}</p>
 </template>
 
 <script setup>
 const props = defineProps({
-  beerStyle: {
+  simplePost: {
     type: Object,
     required: true,
   },
